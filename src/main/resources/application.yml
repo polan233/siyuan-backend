@@ -1,0 +1,18 @@
+ spring:
+   main:
+     allow-bean-definition-overriding: true
+   datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://47.115.227.186:3306/scmap?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+#     url: jdbc:mysql://localhost:3306/scmap?useUnicode=true&characterEncoding=utf-8
+     username: root
+     password: ..0cc.0aA
+
+   data:
+     neo4j:
+       uri: bolt://47.115.227.186:7687
+       username: neo4j
+       password: zyl80480
+ mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
